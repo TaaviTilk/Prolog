@@ -1,4 +1,4 @@
-Ülesanne 3. Koostage Prologis oma sõprade andmebaas. Realiseerige päringud elukoht/2, synniaasta/2 ja eriala/2 sõprade otsimiseks elukoha, sünniaasta ja eriala järgi. Näiteks
+Ãœlesanne 3. Koostage Prologis oma sÃµprade andmebaas. Realiseerige pÃ¤ringud elukoht/2, synniaasta/2 ja eriala/2 sÃµprade otsimiseks elukoha, sÃ¼nniaasta ja eriala jÃ¤rgi. NÃ¤iteks
 ?- elukoht('Margus',X).
 X = 'Tallinn'.
 ?- synniaasta(X,1966).
@@ -6,6 +6,9 @@ X = 'Jaak' ;
 false.
 ?- eriala(X,filosoofia).
 X = 'Mats'.
-Soovitus: Koostage andmebaas faktidest ja reeglitest nagu perekonna andmebaas ülesandes 1.
-Soovitus: Struktureerige andmeid sobivate tehete ja funktsioonidega. Elukoht ja sünnipäev pole atomaarsed, vaid struktureeritud andmed. Aadress koosneb tavaliselt linnast või külast, tänavast, maja- ja korterinumbrist. Kuupäeva moodustavad päev, kuu ja aasta. Tehetena võib kasutada tavalisi aritmeetilisi tehteid nagu liitmine, lahutamine, korrutamine ja jagamine. Näiteks sünnipäevaformaati saab esitada jagamistehte abil 18/11/92 või funktsiooni ja selle argumentidena sünnipäev(18,11,92).
+Soovitus: Koostage andmebaas faktidest ja reeglitest nagu perekonna andmebaas Ã¼lesandes 1.
+Soovitus: Struktureerige andmeid sobivate tehete ja funktsioonidega. Elukoht ja sÃ¼nnipÃ¤ev pole atomaarsed, vaid struktureeritud andmed.
+Aadress koosneb tavaliselt linnast vÃµi kÃ¼last, tÃ¤navast, maja- ja korterinumbrist. KuupÃ¤eva moodustavad pÃ¤ev, kuu ja aasta. 
+Tehetena vÃµib kasutada tavalisi aritmeetilisi tehteid nagu liitmine, lahutamine, korrutamine ja jagamine. 
+NÃ¤iteks sÃ¼nnipÃ¤evaformaati saab esitada jagamistehte abil 18/11/92 vÃµi funktsiooni ja selle argumentidena sÃ¼nnipÃ¤ev(18,11,92).
    
