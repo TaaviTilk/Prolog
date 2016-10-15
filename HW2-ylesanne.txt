@@ -1,0 +1,17 @@
+Ülesanne 2. Kirjeldage Prologi protseduur lill(N), mis joonistab ASCII sümbolitest lille. Parameeter N määrab joonise suuruse. Näiteks
+
+?- lill(1).
+ O
+O O
+ O
+ |
+true .
+
+?- lill(2).
+  OO
+OO  OO
+OO  OO
+  OO
+  ||
+true .
+   

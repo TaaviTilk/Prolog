@@ -1,0 +1,5 @@
+Ülesanne 1. Lõpetage oma suguvõsa andmebaas, lisades reeglid õdede, vendade, tädide, onude, vanaisade ja vanaemade leidmiseks:
+father/2
+sister/2, brother/2
+aunt/2, uncle/2
+grandfather/2, grandmother/2
